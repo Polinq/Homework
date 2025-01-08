@@ -44,3 +44,4 @@ checkProbabilityTheory(-9);
 checkProbabilityTheory(0);
 checkProbabilityTheory(1);
 checkProbabilityTheory(10);
+checkProbabilityTheory(4);
