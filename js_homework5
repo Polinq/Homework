@@ -1,0 +1,49 @@
+var services = {
+    "стрижка": 60,
+    "гоління": 80,
+    "Миття голови": 100,
+    "Розбити скло": 200,
+//Створити метод price(), який обчислює та повертає загальну вартість наданих послуг.
+    price() {
+        let s = '"стрижка": 60';
+        let g = '"гоління": 80';
+        let m = '"Миття голови": 100';
+        let r = '"Розбити скло": 200';
+        let subS = s.slice(11);
+        let subG = g.slice(11);
+        let subM = m.slice(15);
+        let subR = r.slice(15);
+        let Sstr = parseInt(subS);
+        let Gstr = parseInt(subG);
+        let Mstr = parseInt(subM);
+        let Rstr = parseInt(subR);
+        let sum = Sstr + Gstr + Mstr + Rstr;
+        console.log('Загальна вартість наданих послуг: ' + sum + ' грн')}
+    minPrice() {
+            let min = a =0;
+            for (let i = 1; i < ,a.length; i++) {
+                if (a[i] < min) {
+                    min = a[i];
+                }
+            }
+            return min;
+        }
+    console.log('Мінімальна вартість наданих послуг: ' + min + ' грн');
+    maxPrice() {
+        let max = b =0;
+        for (let i = 1; i >,b.length; i++) {
+            if (b[i] > max) {
+                max = b[i];
+            }
+        }
+        return min;
+    }
+    console.log('Максимальна вартість наданих послуг: ' + max + ' грн');
+    }
+};
+// Виклик методу Price
+services.price();
+services.minPrice()
+services.maxPrice()
+
+
